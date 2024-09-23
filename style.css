@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Quantico", sans-serif;
+}
+.header{
+    margin: 0 auto;
+}
+.header-content{
+    margin: 0 auto;
+    width: 1273px;
+    height: 70px;
+    background-color: #272C3D ;
+}
+.header-element{
+    margin: 0 auto;
+    padding: 20px 20px 0 25.46px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.header-element ul{
+    color: white;
+    display: flex;
+    gap: 40px;
+}
+.header-element ul li:hover{
+    color: #FF9C28;
+    transition: all .5s;
+}
+.header-element ul li{
+    font-size: 20px;
+    font-weight: 400;
+}
+.input{
+    position: relative;
+    left: 140px;
+    border: none;
+    background-color: #404864;
+    width: 241.87px;
+    height: 30px;
+    border-radius: 5px;
+}
+.input-img{
+    position: absolute;
+    left: 1315.3px;
+    top: 22px;
+}
+.one{
+}
+.select{
+    opacity: 50%;
+    background-color: #00000080;
+    color: white;
+    padding: 10.18;
+    width: 165.49px;
+    height: 30px;
+    border-radius: 5px;
+}
+.option{
+    background-color: black;
+    color: white;
+    opacity: 50%;
+}
+.section{
+    margin: 0 auto;
+    width: 1273px;
+    height: 554px;
+    background: url(img/Bg.png);
+}
+.section2{
+    margin: 0 auto;
+}
+.section2-content{
+    margin: 0 auto;
+    width: 1189px;
+    height: 399px;
+}
+.section2-h1 h1{
+    margin: 0 auto;
+    width: 274px;
+    height: 68px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}
+.section2-cards{
+    position: relative;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1189px;
+    height: 221.67px;
+}
+.section3-cards{
+    padding: 61px 0 0 0;
+    margin: 0 auto;
+    width: 1189px;
+    height: 928px;
+    background-color: #1B1E27;
+}
+.section3-card{
+    margin: 0 auto;
+    width: 740px;
+    height: 298px;
+}
+.section3-card h1{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.card2{
+    margin: 142px auto;
+}
+.section3-box{
+    gap: 17px;
+    margin: 30px 0 0 0;
+    display: flex;
+}
+.section3-box p{
+    width: 323px;
+    height: 234px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+}
+.footer{
+    margin: 0 auto;
+}
+.footer-content{
+    margin: 0 auto;
+    width: 1273px;
+    height: 70px;
+    background-color: #272C3D;
+}
+.footer-element{
+    padding: 22px 21px 0 47px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-element ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.footer-element ul li{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-element ul li:hover{
+    color: #FF9C28;
+    transition: all .5s;
+    font-size: 20px;
+}
